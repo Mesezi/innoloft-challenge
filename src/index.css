@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+html{
+  font-size: 13px;
+}
+
+
+@media(min-width: 640px){
+  html{
+    font-size: 15px;
+  }
+
+}
+
+@media(min-width: 768px){
+html{
+  font-size: 17px;
+}
+}
